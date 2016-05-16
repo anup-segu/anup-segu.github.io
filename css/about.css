@@ -1,0 +1,31 @@
+/*font-family: 'Montserrat', sans-serif;*/
+/*font-family: 'Droid Sans', sans-serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+
+.about {
+  display: block;
+  width: 100%;
+  height: 500px;
+  background-color: #666666;
+}
+
+.about-copy {
+  background-color: #666666;
+  position: relative;
+  top: 100px;
+  margin-left: 25%;
+  margin-right: 25%;
+  height: 200px;
+}
+
+.about-header {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.about-body {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: left;
+  color: #FFFFFF;
+}

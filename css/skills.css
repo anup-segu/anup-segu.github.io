@@ -1,0 +1,41 @@
+.skills {
+  background-color: #f2f2f2;
+  height: 500px;
+  position: absolute;
+  width: 100%;
+}
+
+.skills-content {
+  position: relative;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.skills-header {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: #666666;
+}
+
+.skills-icons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill-icon {
+  width: 24%;
+  margin: 0;
+  height: 135px;
+}
+
+.skill-icon > img {
+  width: 50%;
+  max-height: 80px;
+  margin-left: 25%;
+}
+
+.skill-caption {
+  font-family: 'Ubuntu', sans-serif;
+  color: #666666;
+  text-align: center;
+}

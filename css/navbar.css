@@ -8,6 +8,8 @@
   width: 100%;
   padding: 0;
   height: 50px;
+  top: 0;
+  z-index: 3;
 }
 
 .nav-bar > ul {
@@ -26,5 +28,5 @@
   cursor: pointer;
   color: #FFFFFF;
   background-color: #000000;
-  border-bottom: 4px solid #FFFFFF;
+  border-bottom: 3px solid #FFFFFF;
 }
