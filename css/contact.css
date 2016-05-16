@@ -1,7 +1,7 @@
 .contact {
   top: 2000px;
   background-color: #f2f2f2;
-  height: 425px;
+  height: 500px;
   position: absolute;
   width: 100%;
 }
@@ -10,6 +10,7 @@
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   color: #666666;
+  margin-bottom: 50px;
 }
 
 .contact-detail {
