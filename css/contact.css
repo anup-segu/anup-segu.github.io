@@ -1,0 +1,71 @@
+.contact {
+  top: 2000px;
+  background-color: #f2f2f2;
+  height: 500px;
+  position: absolute;
+  width: 100%;
+}
+
+.contact-header {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: #666666;
+}
+
+.contact-detail {
+  position: relative;
+  top: 10px;
+  margin-left: 25%;
+  margin-right: 25%;
+  height: 325px;
+}
+
+.contact-icons {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.contact-icon {
+  width: 28%;
+  height: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.contact-icon:hover {
+  cursor: pointer;
+}
+
+.github {
+  background-image: url("http://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2000px-Octicons-mark-github.svg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.mail {
+  background-image: url("https://openclipart.org/image/2400px/svg_to_png/29117/jean-victor-balin-icon-letter-mail.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.linked-in {
+  background-image: url("http://strandmark.net/linkedin.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.resume {
+  height: 40%;
+  margin-left: 37%;
+  margin-right: 37%;
+  background-image: url("http://guelphlibraryproject.ca/wp-content/uploads/2015/06/Document-Icon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
