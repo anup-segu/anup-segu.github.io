@@ -27,7 +27,7 @@
 .project-thumbnail {
   margin: 1%;
   height: 93%;
-  width: 45%;
+  width: 40%;
   float: left;
 }
 
@@ -35,14 +35,14 @@
   background-image: url("../images/loghealthy.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: 100% 100%;
 }
 
 .tune-cruise {
   background-image: url("../images/tune_cruise.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: 100% 100%;
 }
 
 .eCamel {
