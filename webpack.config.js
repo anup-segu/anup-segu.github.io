@@ -2,8 +2,8 @@ module.exports = {
   context: __dirname,
   entry: "./js/anupsegu.js",
   output: {
-    path: "./lib",
-    publicPath: "/lib/",
+    path: "./js",
+    publicPath: "/js/",
   	filename: "bundle.js",
     devtoolModuleFilenameTemplate: '[resourcePath]',
     devtoolFallbackModuleFilenameTemplate: '[resourcePath]?[hash]'
