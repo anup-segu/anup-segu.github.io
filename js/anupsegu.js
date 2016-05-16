@@ -15,7 +15,6 @@ $(document).ready(function(){
 
   $(".resume").click(function(){
     window.open('./docs/resume.pdf', '_blank');
-    // window.location = './docs/resume.pdf';
   });
 
   $("#about-nav").click(function(){
