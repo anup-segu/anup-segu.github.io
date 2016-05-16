@@ -1,0 +1,30 @@
+/*font-family: 'Montserrat', sans-serif;*/
+/*font-family: 'Droid Sans', sans-serif;*/
+
+.nav-bar {
+  position: fixed;
+  background-color: gray;
+  opacity: .9;
+  width: 100%;
+  padding: 0;
+  height: 50px;
+}
+
+.nav-bar > ul {
+  margin: 0 10% 0 10%;
+  height: 100%;
+}
+
+.nav-bar-link {
+  display: inline-block;
+  list-style: none;
+  padding: 2% 8% 2% 8%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav-bar-link:hover {
+  cursor: pointer;
+  color: #FFFFFF;
+  background-color: #000000;
+  border-bottom: 4px solid #FFFFFF;
+}
