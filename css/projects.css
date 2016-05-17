@@ -81,11 +81,15 @@
 
 .project-links > li {
   text-align: center;
-  margin: 5% 30% 8% 30%;
+  margin: 5% 27.5% 8% 17%;
   height: 40px;
   line-height: 40px;
   background-color: #FFFFFF;
   color: #666666;
+}
+
+.project-links > li > a:visited {
+  color: #000000;
 }
 
 a {
