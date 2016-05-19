@@ -32,9 +32,9 @@ module.exports = function() {
     var direction = action;
 
     //moving carousel backwards
-    if(direction == 'counter-clockwise') {
+    if(direction === 'counter-clockwise') {
       var leftitem = $('.left-pos').attr('id') - 1;
-      if(leftitem == 0) {
+      if(leftitem === 0) {
         leftitem = itemCount;
       }
 
@@ -50,9 +50,9 @@ module.exports = function() {
     }
 
     //moving carousel forward
-    if(direction == 'clockwise' || direction == '' || direction == null ) {
+    if(direction === 'clockwise' || direction === '' || direction === null ) {
       function pos(positionvalue) {
-        if(positionvalue != 'leftposition') {
+        if(positionvalue !== 'leftposition') {
           //increment image list id
           position++;
 
@@ -63,7 +63,7 @@ module.exports = function() {
         }
 
         //setting the left positioned item
-        if(positionvalue == 'leftposition') {
+        if(positionvalue === 'leftposition') {
           //left positioned image should always be one left than main positioned image.
           position = startItem - 1;
 
@@ -101,7 +101,7 @@ module.exports = function() {
 
   //if any visible items are clicked
   $('li').click(function() {
-    if($(this).attr('class') == 'items left-pos') {
+    if($(this).attr('class') === 'items left-pos') {
        swap('counter-clockwise');
     }
     else {
