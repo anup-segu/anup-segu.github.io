@@ -31,17 +31,48 @@ section {
   overflow: hidden;
 }
 
-.items > p {
-  color: white;
-  font-weight: bold;
-  font-size: 5em;
-  text-align: center;
-  margin-top: 1.175em;
+.items:hover > .project-copy {
+  display: block;
 }
-/*
-.items {
+
+.project-copy {
+  display: none;
   position: absolute;
-}*/
+  background-color: rgba(0,0,0,.85);
+  top: 5.5%;
+  left: 15%;
+  margin: 1%;
+  height: 70%;
+  width: 61%;
+  padding: 5%;
+  float: right;
+}
+
+.project-copy > h2 {
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.project-copy > p {
+  color: #FFFFFF;
+  font-family: 'Ubuntu', sans-serif;
+  margin-top: 0;
+  font-size: 14px;
+}
+
+.project-copy > ul {
+  color: #FFFFFF;
+  font-family: 'Ubuntu', sans-serif;
+  margin-top: 0;
+  font-size: 14px;
+}
+
+.items > img {
+  height: 100%;
+  width: 100%;
+}
 
 .main-pos {
   margin-left: 9.25% !important;
