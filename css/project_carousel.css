@@ -13,6 +13,7 @@
 }
 
 section {
+  margin-top: 30px !important;
   width: 90%;
   height: 25em;
   margin: 0 auto;
