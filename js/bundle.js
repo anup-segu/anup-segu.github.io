@@ -10006,7 +10006,7 @@
 	
 	    //moving carousel forward
 	    if(direction === 'clockwise' || direction === '' || direction === null ) {
-	      function pos(positionvalue) {
+	      var pos = function(positionvalue) {
 	        if(positionvalue !== 'leftposition') {
 	          //increment image list id
 	          position++;
@@ -10029,7 +10029,7 @@
 	        }
 	
 	        return position;
-	      }
+	      };
 	
 	     $('#'+ startItem +'').removeClass('main-pos').addClass('left-pos');
 	     $('#'+ (startItem+pos()) +'').removeClass('right-pos').addClass('main-pos');
@@ -10063,6 +10063,37 @@
 	      swap('clockwise');
 	    }
 	  });
+	
+	  $("#log_healthy_live").click(function() {
+	    window.open('http://www.loghealthy.com', '_blank');
+	  });
+	
+	  $("#log_healthy_git").click(function() {
+	    window.open('https://github.com/anup-segu/LogHealthy', '_blank');
+	  });
+	
+	  $("#tune_live").click(function() {
+	    window.open('https://tune-cruise.herokuapp.com/', '_blank');
+	  });
+	
+	  $("#tune_git").click(function() {
+	    window.open('https://github.com/anup-segu/TuneCruise', '_blank');
+	  });
+	
+	  //
+	
+	  $("#sql_red_git").click(function() {
+	    window.open('https://github.com/anup-segu/SQLRed', '_blank');
+	  });
+	
+	  $("#ecamel_live").click(function() {
+	    window.open('https://ecamel-demo.herokuapp.com/', '_blank');
+	  });
+	
+	  $("#ecamel_git").click(function() {
+	    window.open('https://github.com/JeffNguyen/eCamel', '_blank');
+	  });
+	
 	
 	};
 
