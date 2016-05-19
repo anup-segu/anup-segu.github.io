@@ -43,8 +43,8 @@ section {
   top: 2.5%;
   left: 15%;
   margin: 1%;
-  height: 70%;
-  width: 61%;
+  height: 90%;
+  width: 68%;
   padding: 5%;
   float: right;
 }
@@ -68,14 +68,14 @@ section {
   color: #000000;
   font-family: 'Ubuntu', sans-serif;
   margin-top: 0;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .project-copy > ul {
   color: #000000;
   font-family: 'Ubuntu', sans-serif;
   margin-top: 0;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .description {
@@ -90,7 +90,6 @@ section {
 .main-pos {
   margin-left: 9.25% !important;
   z-index: 3000;
-  /*background-image: url('http://dl.dropbox.com/u/32649907/imgs/shadow.png');*/
 }
 
 .left-pos {
@@ -131,7 +130,7 @@ span {
   font-family: 'Montserrat', sans-serif;
   color: #666666;
   list-style: none;
-  top: 50%;
+  top: 60%;
   left: 30%;
   width: 45%;
   padding: 0;
