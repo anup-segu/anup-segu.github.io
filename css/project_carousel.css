@@ -31,15 +31,15 @@ section {
   overflow: hidden;
 }
 
-.items:hover > .project-copy {
+.main-pos:hover > .project-copy {
   display: block;
 }
 
 .project-copy {
   display: none;
   position: absolute;
-  background-color: rgba(0,0,0,.85);
-  top: 5.5%;
+  background-color: rgba(255,255,255,.85);
+  top: 2.5%;
   left: 15%;
   margin: 1%;
   height: 70%;
@@ -48,25 +48,37 @@ section {
   float: right;
 }
 
+.project-copy-dark {
+  background-color: rgba(0,0,0,.85) !important;
+}
+
+.project-copy-dark > * {
+  color: #FFFFFF !important;
+}
+
 .project-copy > h2 {
-  color: #FFFFFF;
+  color: #000000;
   font-family: 'Montserrat', sans-serif;
   margin-top: 0;
   margin-bottom: 10px;
 }
 
 .project-copy > p {
-  color: #FFFFFF;
+  color: #000000;
   font-family: 'Ubuntu', sans-serif;
   margin-top: 0;
   font-size: 14px;
 }
 
 .project-copy > ul {
-  color: #FFFFFF;
+  color: #000000;
   font-family: 'Ubuntu', sans-serif;
   margin-top: 0;
   font-size: 14px;
+}
+
+.description {
+  font-style: italic;
 }
 
 .items > img {
@@ -111,4 +123,58 @@ span {
   margin: 0 auto;
   left: 46%;
   top: 450px;
+}
+
+.project-links {
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  color: #666666;
+  list-style: none;
+  top: 50%;
+  left: 30%;
+  width: 45%;
+  padding: 0;
+}
+
+.project-links > li {
+  text-align: center;
+  margin: 5% 27.5% 8% 17%;
+  height: 40px;
+  line-height: 40px;
+  background-color: #FFFFFF;
+  color: #666666;
+}
+
+.project-links > li > a:visited {
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+}
+
+.project-links > li:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 15px 3px rgba(255,255,255,1);
+  -moz-box-shadow: 0px 0px 15px 3px rgba(255,255,255,1);
+  box-shadow: 0px 0px 15px 3px rgba(255,255,255,1);
+}
+
+.project-links-dark {
+  color: #666666 !important;
+}
+
+.project-links-dark > li {
+  background-color: #666666 !important;
+  color: #FFFFFF !important;
+}
+
+.project-links-dark > li > a:visited {
+  color: #FFFFFF !important;
+}
+
+.project-links-dark > li:hover {
+  -webkit-box-shadow: 0px 0px 15px 3px rgba(0,0,0,1) !important;
+  -moz-box-shadow: 0px 0px 15px 3px rgba(0,0,0,1) !important;
+  box-shadow: 0px 0px 15px 3px rgba(0,0,0,1) !important;
 }
