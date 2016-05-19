@@ -68,14 +68,14 @@ section {
   color: #000000;
   font-family: 'Ubuntu', sans-serif;
   margin-top: 0;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .project-copy > ul {
   color: #000000;
   font-family: 'Ubuntu', sans-serif;
   margin-top: 0;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .description {
@@ -130,7 +130,7 @@ span {
   font-family: 'Montserrat', sans-serif;
   color: #666666;
   list-style: none;
-  top: 60%;
+  top: 65%;
   left: 30%;
   width: 45%;
   padding: 0;
