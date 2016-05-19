@@ -21,28 +21,29 @@ $(document).ready(function(){
 
   // Navbar Animation
 
-  $("#about-nav").click(function(){
-    console.log("hell0");
+  $("#about-nav").click(function (event) {
+    event.preventDefault();
     $('html, body').animate({
       scrollTop: $("#about").offset().top - 50
     }, 250);
   });
 
-  $("#skills-nav").click(function(){
-    console.log("hell0");
+  $("#skills-nav").click(function (event) {
+    event.preventDefault();
     $('html, body').animate({
       scrollTop: $("#skills").offset().top - 50
     }, 250);
   });
 
-  $("#projects-nav").click(function(){
+  $("#projects-nav").click(function (event) {
+    event.preventDefault();
     $('html, body').animate({
       scrollTop: $("#projects").offset().top - 50
     }, 250);
   });
 
-  $("#contact-nav").click(function(){
-    console.log("hell0");
+  $("#contact-nav").click(function (event) {
+    event.preventDefault();
     $('html, body').animate({
       scrollTop: $("#contact").offset().top - 50
     }, 250);

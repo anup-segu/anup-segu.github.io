@@ -100,7 +100,7 @@ module.exports = function() {
   });
 
   //if any visible items are clicked
-  $('li').click(function() {
+  $('.items').click(function() {
     if($(this).attr('class') === 'items left-pos') {
        swap('counter-clockwise');
     }
