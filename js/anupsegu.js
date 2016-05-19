@@ -1,6 +1,8 @@
 var $ = require('jQuery');
+var carousel = require('./project_carousel.js');
 
 $(document).ready(function(){
+  // Contact Links and Actions
   $(".github").click(function(){
     window.open('https://github.com/anup-segu', '_blank');
   });
@@ -16,6 +18,8 @@ $(document).ready(function(){
   $(".resume").click(function(){
     window.open('./docs/resume.pdf', '_blank');
   });
+
+  // Navbar Animation
 
   $("#about-nav").click(function(){
     console.log("hell0");
@@ -43,4 +47,8 @@ $(document).ready(function(){
       scrollTop: $("#contact").offset().top - 50
     }, 250);
   });
+
+  // Carousel Animation
+  carousel();
+
 });
