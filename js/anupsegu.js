@@ -15,10 +15,6 @@ $(document).ready(function(){
     window.open('https://www.linkedin.com/in/anupsegu', '_blank');
   });
 
-  $(".resume").click(function(){
-    window.open('./docs/resume.pdf', '_blank');
-  });
-
   // Navbar Animation
 
   $("#about-nav").click(function (event) {

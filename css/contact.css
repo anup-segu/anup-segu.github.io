@@ -69,3 +69,14 @@
 .resume {
 
 }
+
+#resume-link {
+  font-size: 80px;
+  text-decoration: none;
+  color: #333333;
+}
+
+#resume-link:hover {
+  cursor: pointer;
+  color: #00eef4;
+}
