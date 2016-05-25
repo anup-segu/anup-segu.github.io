@@ -37,7 +37,8 @@
   padding-left: 300px;
   text-align: left;
   list-style: none;
-  animation: 7s linear 0s normal forwards 1 change;
+  -webkit-animation: 6s linear 0s normal forwards 1 change;
+  animation: 6s linear 0s normal forwards 1 change;
 }
 
 .moving-tags > li {
