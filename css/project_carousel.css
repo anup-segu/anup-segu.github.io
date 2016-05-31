@@ -1,6 +1,6 @@
 .project-carousel {
   top: 1500px;
-  background-color: #666666;
+  background-color: #587C92;
   height: 600px;
   position: absolute;
   width: 100%;
@@ -128,7 +128,6 @@ span {
 .project-links {
   position: absolute;
   font-family: 'Montserrat', sans-serif;
-  color: #666666;
   list-style: none;
   top: 65%;
   left: 30%;
@@ -142,14 +141,21 @@ span {
   height: 40px;
   line-height: 40px;
   background-color: #FFFFFF;
-  color: #666666;
+}
+
+.project-links > li > a {
+  color: #000000 !important;
 }
 
 .project-links > li > a:visited {
-  color: #000000;
+  color: #000000 !important;
 }
 
 a {
+  text-decoration: none;
+}
+
+a:hover {
   text-decoration: none;
 }
 
@@ -160,12 +166,11 @@ a {
   box-shadow: 0px 0px 15px 3px rgba(255,255,255,1);
 }
 
-.project-links-dark {
-  color: #666666 !important;
-}
-
 .project-links-dark > li {
   background-color: #666666 !important;
+}
+
+.project-links-dark > li > a {
   color: #FFFFFF !important;
 }
 
