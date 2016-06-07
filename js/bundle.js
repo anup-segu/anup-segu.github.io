@@ -9972,6 +9972,8 @@
 	  var itemCount = $('.carousel li.items').length;
 	  var leftpos = itemCount;
 	  var resetCount = itemCount;
+	  var circCount = 1;
+	  var circTotal = 4;
 	
 	  //unused: gather text inside items class
 	  $('li.items').each(function(index) {
@@ -9989,16 +9991,27 @@
 	        leftitem = itemCount;
 	      }
 	
+	      circCount = circCount === 1 ? 4 : circCount - 1;
+	
 	      $('.right-pos').removeClass('right-pos').addClass('back-pos');
 	      $('.main-pos').removeClass('main-pos').addClass('right-pos');
 	      $('.left-pos').removeClass('left-pos').addClass('main-pos');
 	      $('#'+leftitem+'').removeClass('back-pos').addClass('left-pos');
+	
+	      $("#circ-1").removeClass("active");
+	      $("#circ-2").removeClass("active");
+	      $("#circ-3").removeClass("active");
+	      $("#circ-4").removeClass("active");
+	
+	      $("#circ-"+circCount+"").addClass("active");
 	
 	      startItem--;
 	      if(startItem < 1) {
 	        startItem = itemCount;
 	      }
 	    }
+	
+	
 	
 	    //moving carousel forward
 	    if(direction === 'clockwise' || direction === '' || direction === null ) {
@@ -10027,10 +10040,20 @@
 	        return position;
 	      };
 	
+	      circCount = circCount === 4 ? 1 : circCount + 1;
+	
+	      $("#circ-1").removeClass("active");
+	      $("#circ-2").removeClass("active");
+	      $("#circ-3").removeClass("active");
+	      $("#circ-4").removeClass("active");
+	
+	      $("#circ-"+circCount+"").addClass("active");
+	
 	     $('#'+ startItem +'').removeClass('main-pos').addClass('left-pos');
 	     $('#'+ (startItem+pos()) +'').removeClass('right-pos').addClass('main-pos');
 	     $('#'+ (startItem+pos()) +'').removeClass('back-pos').addClass('right-pos');
 	     $('#'+ pos('leftposition') +'').removeClass('left-pos').addClass('back-pos');
+	
 	
 	      startItem++;
 	      position=0;
@@ -10053,9 +10076,8 @@
 	  //if any visible items are clicked
 	  $('.items').click(function() {
 	    if($(this).attr('class') === 'items left-pos') {
-	       swap('counter-clockwise');
-	    }
-	    else {
+	      swap('counter-clockwise');
+	    } else {
 	      swap('clockwise');
 	    }
 	  });
@@ -10089,7 +10111,6 @@
 	  $("#ecamel_git").click(function() {
 	    window.open('https://github.com/JeffNguyen/eCamel', '_blank');
 	  });
-	
 	
 	};
 
